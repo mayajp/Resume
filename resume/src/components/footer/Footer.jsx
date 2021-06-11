@@ -1,6 +1,6 @@
 import React from 'react'
 import {Typography} from "@material-ui/core"
-import ResumeData from "../../utils/reumeDetails.jsx"
+import ResumeData from "../../utils/resumeDetails.jsx"
 import './Footer.css'
 const Footer = () =>{
     return(

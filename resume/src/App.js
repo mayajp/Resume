@@ -22,10 +22,13 @@ function App() {
          
          <Router>
          <Header/>
-           <Switch>
+         <div className="main__content container-shadow">
+         <Switch>
            <Route path="/portfolio"><Portfolio/></Route>
            <Route path="/"><Resume/></Route>
-           </Switch>
+          </Switch>
+         </div>
+        
          </Router>          
          <Footer/>
         </Grid>

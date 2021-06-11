@@ -3,7 +3,7 @@ import {Typography} from "@material-ui/core"
 import "./profile.css"
 import CustomTimeline,{CustomTimeLineSeparator}from "../timeline/CustomTimeLine"
 import PersonOutlineIcon from '@material-ui/icons/PersonOutline'
-import ResumeData from "../../utils/reumeDetails"
+import ResumeData from "../../utils/resumeDetails"
 import TimelineContent from '@material-ui/lab/TimelineContent'
 import TimelineItem from '@material-ui/lab/TimelineItem'
 import CustomButton from '../button/CustomButton'

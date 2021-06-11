@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import {Button,Form,FormControl,Nav,Navbar,NavDropdown,Container} from 'react-bootstrap'
 import {Link,NavLink,withRouter} from 'react-router-dom'
 import{ HomeRounded,SchoolRounded,WorkRounded,Facebook,Twitter,LinkedIn,GitHub,Telegram} from '@material-ui/icons'
-import ResumeData from "../../utils/reumeDetails"
+import ResumeData from "../../utils/resumeDetails"
 import CustomButton from "../button/CustomButton"
 import './Header.css'
 
