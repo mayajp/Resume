@@ -1,0 +1,29 @@
+
+.container__spacing{
+    margin: 45px !important;
+    
+}
+@media(max-width:991px) {
+    .container__spacing{
+        margin: 5px !important;
+        
+    }
+}
+.contactInfo__items{
+    font-size: 15px !important;
+    color:#787878;
+    line-height: 34px !important;
+}
+.contactInfo__items > span{
+     color:black;
+     font-weight: 500 !important;
+}
+.contactinfo__socialsContainer{
+  margin-top: 25px !important;
+  padding-top: 15px;
+}
+.contactinfo_socials >a>.MuiSvgIcon-root{
+ font-size: 16px !important;
+ margin-left:10px;
+ color:black;
+}

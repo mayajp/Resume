@@ -2,6 +2,8 @@ import FacebookIcon from '@material-ui/icons/Facebook';
 import TwitterIcon from '@material-ui/icons/Twitter';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import GitHubIcon from '@material-ui/icons/GitHub';
+import LayersClearTwoToneIcon from '@material-ui/icons/LayersClearTwoTone';
+import CodeTwoToneIcon from '@material-ui/icons/CodeTwoTone';
 
 export default {
     name:'Maya Jayaprakash',
@@ -61,6 +63,44 @@ export default {
       university:"Calicut University",
       District:"Kerala",
       State:"India"
+     }
+  ],
+  Services:[
+     {
+     icons: <LayersClearTwoToneIcon/>,
+     title : "Core Technologies",
+     core1: "JavaScript(Intermediate)",
+     core2: "React JS",
+     core3:"Vue Js",
+     core4: "Restful web services",
+     core5: "Knowledge in Design patterns",
+
+     },
+  ],
+  knowledges:[
+     {
+       icons:<CodeTwoToneIcon/>,
+        title: "Areas of knowledge",
+        area1:"Agile Methodology",
+        area2:"AWS",
+        area3:"Git",
+        area4:"Jira"
+     }
+
+  ],
+  skills:[
+     {
+        title:'Front-end',
+        description:[
+           "React JS","JavaScript","Vue JS","HTML5","CSS","Bootstrap","Material UI"
+        ],
+     },
+     {
+      title:"Source Control",
+      description:[
+         "Git","Jira","AWS"
+      ],
+
      }
   ]
 }

@@ -5,6 +5,7 @@ import Header from './components/header/Header.jsx'
 import Portfolio from './components/pages/portfolio/Portfolio.jsx'
 import Resume from './components/pages/resume/Resume.jsx'
 import Footer from './components/footer/Footer.jsx'
+import Contact from './components/pages/contact/Contact.jsx'
 
 import './App.css';
 
@@ -24,8 +25,10 @@ function App() {
          <Header/>
          <div className="main__content container-shadow">
          <Switch>
+           <Route path="/contact"><Contact/></Route>
            <Route path="/portfolio"><Portfolio/></Route>
            <Route path="/"><Resume/></Route>
+           
           </Switch>
          </div>
         
