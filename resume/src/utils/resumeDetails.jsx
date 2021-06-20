@@ -4,6 +4,8 @@ import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import LayersClearTwoToneIcon from '@material-ui/icons/LayersClearTwoTone';
 import CodeTwoToneIcon from '@material-ui/icons/CodeTwoTone';
+import {YouTube,Language}  from '@material-ui/icons';
+
 
 export default {
     name:'Maya Jayaprakash',
@@ -102,5 +104,60 @@ export default {
       ],
 
      }
+  ],
+  projects:[
+     {
+        tag:'React',
+        image:'https://www.desktopbackground.org/download/1366x768/2015/05/17/949695_best-background-images-for-website-wallpapers-high-definition_1920x1080_h.jpg',
+        title:'React Project 1',
+        caption:'short description',
+        description:'This is the project description please fill it',   
+        links:[
+               
+              //   link:'https://www.google.com',icon:<Google/>,
+              {link:'https://www.github.com',icon:<GitHubIcon/>},
+              {link:'https://www.youtube.com',icon:<YouTube/>},
+            ]
+},
+
+{
+   tag:'React',
+   image:'https://www.desktopbackground.org/download/1366x768/2015/05/17/949695_best-background-images-for-website-wallpapers-high-definition_1920x1080_h.jpg',
+   title:'React Project 2',
+   caption:'short description',
+   description:'This is the project description please fill it',   
+   links :[
+            
+               // link:'https://www.google.com',icon:<Google/>,
+               {link:'https://www.github.com',icon:<GitHubIcon/>},
+               {link:'https://www.youtube.com',icon:<YouTube/>},
+          ]
+},
+
+{
+   tag:'Python',
+   image:'https://www.desktopbackground.org/download/1366x768/2015/05/17/949695_best-background-images-for-website-wallpapers-high-definition_1920x1080_h.jpg',
+   title:'Python Project 1',
+   caption:'short description',
+   description:'This is the project description please fill it',   
+   links :[     
+         // link:'https://www.google.com',icon:<Google/>,
+         {link:'https://www.github.com',icon:<GitHubIcon/>},
+         {link:'https://www.youtube.com',icon:<YouTube/>},
+       ]
+},
+{
+   tag:'Java',
+   image:'https://www.desktopbackground.org/download/1366x768/2015/05/17/949695_best-background-images-for-website-wallpapers-high-definition_1920x1080_h.jpg',
+   title:'Java Project 1',
+   caption:'short description',
+   description:'This is the project description please fill it ',   
+links :[
+            
+          {link:'https://www.google.com',icon:<Language/>},
+          {link:'https://www.github.com',icon:<GitHubIcon/>},
+          {link:'https://www.youtube.com',icon:<YouTube/>},
+        ]
+}
   ]
 }
